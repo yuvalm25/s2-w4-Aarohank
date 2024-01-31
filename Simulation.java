@@ -8,7 +8,7 @@
 public class Simulation {
 
     final static boolean DEBUGGING = false;
-    Player p1 = new Player( );
+    Player p1 = new TitForTat( );
     Player p2 = new Player ( );
     
     public Simulation ( ) {

@@ -1,16 +1,18 @@
 
  public class ModNCounter extends Counter {
    //Put instance variables here
-   
-   public ModNCounter(){
-      super();
+   private int lim;
+
+   public ModNCounter(int n){
+      this.lim = n;
    }
 
-   public void increment(int lim){
-      super.increment();
-      if(super.value() >= lim){
+   public void increment(){
+      if(super.value() == lim){
          super.reset();
       }
+      super.increment();
+
    }
    
    
