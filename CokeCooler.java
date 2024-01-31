@@ -1,6 +1,7 @@
 public class CokeCooler extends Refillable {
 
    public CokeCooler (int initialAmount) {
+      
       super (initialAmount);
    }
 
